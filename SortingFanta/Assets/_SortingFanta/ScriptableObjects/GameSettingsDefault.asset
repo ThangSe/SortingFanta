@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075f064f12727384eb52400f566e7ae1, type: 3}
+  m_Name: GameSettingsDefault
+  m_EditorClassIdentifier: 
+  countdownToStartTime: {fileID: 11400000, guid: ce4396c8d56488047a6623863f5e1b76, type: 2}
+  countdownToStartTimeMax: {fileID: 11400000, guid: 3fafc73c48f559945b933174a6ec03fb, type: 2}
+  currentScore: {fileID: 11400000, guid: 9ad9c0be2a55b9d42ab1a32db6f3ad37, type: 2}
+  winningScore: {fileID: 11400000, guid: f4a976a8fdf509b429dad42a4355c473, type: 2}
+  turnPlayLeft: {fileID: 11400000, guid: aaa2194f3fd40ee459c36edca7c84c2b, type: 2}
+  turnPlayMax: {fileID: 11400000, guid: c33e2d0911d0927439393845e8610911, type: 2}
+  timePlayingCurrent: {fileID: 11400000, guid: bc5e206d6c2ed6a469faadf33a703a46, type: 2}
+  timePlayingMax: {fileID: 11400000, guid: 1dbc150dc2a5a4d4cb195d8aaf11bfc5, type: 2}
+  numberSameIcon: {fileID: 11400000, guid: 00fb5a53a3056d342b4226ab2a8004f6, type: 2}
+  numberIconType: {fileID: 11400000, guid: 6f65051dcb5e5ea4ab9e229da9e95b48, type: 2}
+  numberBottle: {fileID: 11400000, guid: d528e3e298e77e44fbcb127d935b3af4, type: 2}
+  numberIconInBottle: {fileID: 11400000, guid: 5677f1bf4bf34f4459b671bfc32f175f, type: 2}
+  numberEmptyBottle: {fileID: 11400000, guid: 8d0f0d26f8fa00d488cc2dafa4ed33e6, type: 2}
+  undoTurnCurrent: {fileID: 11400000, guid: 5b831afda180dd0449d56a9b60b18a7e, type: 2}
+  undoTurnMax: {fileID: 11400000, guid: 1e5a25d9f08371e45a29bd959abe8108, type: 2}
+  hintTurnCurrent: {fileID: 11400000, guid: 28c65ecba4b217f4ab3b1af1c4212942, type: 2}
+  hintTurnMax: {fileID: 11400000, guid: 459d4e90840eee7478d184f65c343738, type: 2}
+  bottlePosition:
+  - {x: -2, y: 1, z: 0}
+  - {x: -1, y: 1, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 1, y: 1, z: 0}
+  - {x: 2, y: 1, z: 0}
+  - {x: 2, y: -2, z: 0}
+  - {x: 1, y: -2, z: 0}
+  - {x: 0, y: -2, z: 0}
+  - {x: -1, y: -2, z: 0}
+  - {x: -2, y: -2, z: 0}
